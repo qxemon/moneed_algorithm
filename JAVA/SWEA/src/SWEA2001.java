@@ -29,20 +29,28 @@ public class SWEA2001 {
 				}
 			}
 			
+			int max = 0;
 
 			for(int i = 0; i<N;i++) {
 				for(int j=0;j<N;j++) {
 					int sum = 0;
 					for(int a = 0; a<M; a++) {
 						for(int b=0; b<M; b++) {
-							sum += flies[i+a][j+b];
+							if(i+a >= N || j+b >= N) //범위초과
+								continue;
+							else
+								sum += flies[i+a][j+b];
 						}
 					}
 					
-					
+				max = Math.max(sum, max);
 				}
+
 			}
-			
+
+
+			System.out.print("#"+tc+" ");
+			System.out.println(max);
 			
 		}
 		
