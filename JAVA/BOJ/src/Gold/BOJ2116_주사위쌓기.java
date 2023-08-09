@@ -22,6 +22,7 @@ public class BOJ2116_주사위쌓기 {
 				dices[i][j] = Integer.parseInt(st.nextToken());
 			}
 		}//입력 완료
+
 		Result = -1;
 		//1번 주사위 윗면 정하기
 		for(int i=0; i<6;i++){
