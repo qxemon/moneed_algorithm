@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 
-public class BOJ_2164_카드2 {
+public class BOJ2164_카드2 {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		ArrayDeque<Integer>queue = new ArrayDeque<>();
