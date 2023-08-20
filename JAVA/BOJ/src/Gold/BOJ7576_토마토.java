@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+/**
+ * 좌표마다 날짜 기억하기 버전, 날짜 따로 기록하기 버전 두가지로 풀어보기
+ */
 public class BOJ7576_토마토 {
     static int[] di = {-1,1,0,0};
     static int[] dj = {0,0,-1,1};
