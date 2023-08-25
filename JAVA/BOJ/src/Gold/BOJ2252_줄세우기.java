@@ -64,15 +64,6 @@ public class BOJ2252_줄세우기 {
         }
 
     } //bfs end
-}
-
-class Point {
-    int next;
-    int cost;
-
-    public Point(int next, int cost) {
-        this.next = next;
-        this.cost = cost;
-    }
 
 }
+
