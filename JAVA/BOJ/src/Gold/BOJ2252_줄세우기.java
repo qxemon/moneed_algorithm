@@ -53,7 +53,9 @@ public class BOJ2252_줄세우기 {
         while(!queue.isEmpty()){
             int idx = queue.poll(); //진입 차수가 0인 정점 꺼냄
             result[cnt++] = idx; // 정렬 배열에 넣어줌
+
             for (int i = 0; i < graph.get(idx).size(); i++) {
+
                 degree[graph.get(idx).get(i)]--; // 인접 정점 하나 뗌
                 if(degree[graph.get(idx).get(i)] == 0){ //인접 정점 0 되면
                     queue.offer(graph.get(idx).get(i)); //큐에 넣음
