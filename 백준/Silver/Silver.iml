@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1074. Z" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10971. 외판원 순회 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11279. 최대 힙" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11286. 절댓값 힙" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1158. 요세푸스 문제" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1182. 부분수열의 합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1244. 스위치 켜고 끄기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12927. 배수 스위치" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14235. 크리스마스 선물" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14889. 스타트와 링크" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15649. N과 M （1）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1697. 숨바꼭질" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17478. 재귀함수가 뭔가요？" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2164. 카드2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2178. 미로 탐색" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2304. 창고 다각형" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2563. 색종이" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3986. 좋은 단어" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4963. 섬의 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/6603. 로또" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7562. 나이트의 이동" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

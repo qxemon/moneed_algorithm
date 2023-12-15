@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1592. 영식이와 친구들" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2309. 일곱 난쟁이" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2798. 블랙잭" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2851. 슈퍼 마리오" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3040. 백설 공주와 일곱 난쟁이" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3052. 나머지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3985. 롤 케이크" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8958. OX퀴즈" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

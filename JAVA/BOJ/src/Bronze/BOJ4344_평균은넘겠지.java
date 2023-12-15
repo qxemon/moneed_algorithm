@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BOJ4344 {
+public class BOJ4344_평균은넘겠지 {
 
 	public static void main(String[] args) throws FileNotFoundException {
 

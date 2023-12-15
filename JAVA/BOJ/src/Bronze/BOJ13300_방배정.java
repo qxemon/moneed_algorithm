@@ -1,6 +1,8 @@
+package Bronze;
+
 import java.util.Scanner;
 
-public class BOJ13300 {
+public class BOJ13300_방배정 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
