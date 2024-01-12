@@ -13,47 +13,59 @@ public class BOJ14226_이모티콘 {
 
         int s = Integer.parseInt(br.readLine());
 
+        int ans = bfs(s);
+
+        System.out.println(ans);
 
     }
 
 
     public static int bfs(int s){
-        Queue<Integer> queue = new ArrayDeque<>();
-        int cnt = 0;
-        int num = 0;
-        if(s > 1){
-            //정답이 1이 아니라면 일단 무조건 클립보드에 복사를 해야하기 때문에
-            num = 1;
-            cnt++;
+        Queue<Clip> queue = new ArrayDeque<>();
+        boolean[][] visited = new boolean[1001][1001];
+        Clip first = new Clip(1,1,1);
+
+        visited[1][1] = true;
+
+        int time = 1;
+        queue.add(first);
+        while(!queue.isEmpty()){
+            Clip now = queue.poll();
+
+            if(now.emoji == s) return now.time;
+
+            Clip[] method = new Clip[3];
+            //1. 클립보드에 저장
+            method[0] = new Clip(now.emoji, now.emoji,now.time+1);
+            //2. 클립보드 이모지 화면 부착
+            if(now.copy > 0 && now.emoji+now.copy <= )
+            method[1] = new Clip(now.emoji+now.copy, now.copy,now.time+1);
+            //3. 이모지 하나 삭제
+            method[2] = new Clip(now.emoji-1, now.copy, now.time+1);
+
+            //소거: 뭐가 최선일까?
+
+
+
         }
 
-        queue.add(num);
-        while(queue.isEmpty()){
 
-            int now = queue.poll();
-            int a = now + num; // 그냥 추가하는 경우
-            num =  //클립보드에 추가하는 경우
-            int c = now - 1; // 삭제 하는 경우
+        return 1;
 
-
-
-        }
-
-
-
-
-        return cnt;
     }
 
 
 
-    static class clip{
-        int cnt;
-        int copy;
 
-        public clip(int cnt, int copy) {
-            this.cnt = cnt;
+    static class Clip{
+        int emoji;
+        int copy;
+        int time;
+
+        public Clip(int emoji, int copy, int time) {
+            this.emoji = emoji;
             this.copy = copy;
+            this.time = time;
         }
     }
 }
