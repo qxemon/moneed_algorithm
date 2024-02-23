@@ -137,8 +137,6 @@ public class Main_게리맨더링{
 
     }
 
-
-
     static void print() {
         for (int i = 1; i < adjMatrix.length; i++) {
             for (int j = 1; j < adjMatrix.length; j++) {
