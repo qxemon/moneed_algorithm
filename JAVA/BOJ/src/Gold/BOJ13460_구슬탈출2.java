@@ -79,6 +79,7 @@ public class BOJ13460_구슬탈출2 {
                 boolean redGoal = false;
 
                 //사방탐색 2. 해당 방향 끝까지 구슬 굴리기
+
                 while (map[nBx + di[d]][nBy + dj[d]] != '#') {
                     nBx += di[d];
                     nBy += dj[d];
@@ -115,8 +116,8 @@ public class BOJ13460_구슬탈출2 {
                         nBx -= di[d];
                         nBy -= dj[d];
                     } else {
-                        nRy -= di[d];
-                        nBy -= dj[d];
+                        nRx -= di[d];
+                        nRy -= dj[d];
                     }
                 }
 
